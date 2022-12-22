@@ -30,9 +30,29 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
+  gap: 10px;
 }
 
 .country-img {
   width: 30px;
-  margin-right: 10px;
+}
+
+.country-info__title {
+  display: flex;
+  align-items: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  gap: 12px;
+}
+
+.country-info__details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.country-info__name {
+  margin: 0;
 }
